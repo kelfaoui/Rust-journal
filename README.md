@@ -219,6 +219,63 @@ Comment pouvez-vous vérifier que Rust est installé correctement ?
 Quelle commande permet d'accéder à la documentation locale de Rust ?
 
 
+# 1.2 Hello, World!
+
+
+Lorsqu'on apprend un nouveau langage, il est de tradition d'écrire un petit programme qui écrit le texte "Hello, world!" à l'écran, donc c'est ce que nous allons faire !
+
+ **Question :** Quelle est la première chose que l'on apprend généralement à faire dans un nouveau langage de programmation ?
+
+### Hello, World! 
+Maintenant que vous avez installé Rust, écrivons notre premier programme Rust. Lorsqu'on apprend un nouveau langage, il est de tradition d'écrire un petit programme qui écrit le texte "Hello, world!" à l'écran, donc c'est ce que nous allons faire !
+
+**Question :** Quel est l'objectif d'écrire un programme "Hello, world!" lors de la découverte d'un nouveau langage de programmation ?
+
+## Créer un dossier projet
+Nous allons commencer par créer un dossier pour y ranger le code Rust. Là où vous mettez votre code n'est pas important pour Rust, mais pour les exercices et projets de ce livre, nous vous suggérons de créer un dossier `projects` dans votre dossier utilisateur et de ranger tous vos projets là-dedans.
+
+Ouvrez un terminal et écrivez les commandes suivantes pour créer un dossier `projects` et un dossier pour le projet “Hello, world!” à l'intérieur de ce dossier `projects`.
+
+#### Sous Linux, macOS et PowerShell sous Windows :
+```bash
+$ mkdir ~/projects
+$ cd ~/projects
+$ mkdir hello_world
+$ cd hello_world
+```
+#### Avec CMD sous Windows, écrivez ceci  :
+
+- mkdir "%USERPROFILE%\projects"
+- cd /d "%USERPROFILE%\projects"
+- mkdir hello_world
+- cd hello_world
+
+## Écrire et exécuter un programme Rust :
+
+Créez un fichier `main.rs` avec le code pour afficher "Hello, world!". Compilez et exécutez le programme avec `rustc` et le fichier exécutable résultant, selon votre système d'exploitation.
+
+**Question :** Quelle commande permet de compiler un programme Rust ?
+
+## Structure d'un programme Rust :
+
+En Rust, la fonction `main` est le point d'entrée du programme. Elle est définie avec des accolades `{}` et n'a ni paramètres ni valeur de retour. Les macros, comme `println!`, sont utilisées pour afficher du texte et se distinguent des fonctions classiques par l'utilisation d'un point d'exclamation `!`. Les instructions se terminent par un point-virgule `;`.
+
+**Question :** Quelle est la fonction spéciale utilisée comme point d'entrée dans un programme Rust ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
